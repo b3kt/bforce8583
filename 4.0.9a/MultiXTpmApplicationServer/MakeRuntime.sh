@@ -19,7 +19,7 @@
 #		msr@mitug.co.il
 #		--------------------------------------------------------------------------------
 
-mkdir "${MultiXTpm}"/runtime
+mkdir -p "${MultiXTpm}"/runtime
 cp bin/MultiXTpm* "${MultiXTpm}"/runtime
 cp TpmConfig.xml "${MultiXTpm}"/runtime
 cp MultiXTpm.wsdl "${MultiXTpm}"/runtime

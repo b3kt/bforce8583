@@ -1,0 +1,11 @@
+			    tmake version 2.12
+
+tmake is an easy-to-use tool for creating and maintaining makefiles across
+many platforms and compilers. For information about installing and using
+tmake, see:
+
+  doc/tmake.html         -- User's Guide
+  doc/tmake_ref.html     -- Reference Manual
+  doc/tmake_output.html  -- Output Options Manual
+
+Download the latest version from: <http://tmake.sourceforge.net>
