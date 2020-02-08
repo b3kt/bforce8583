@@ -34,6 +34,9 @@ IntDir="OBJECTS_DIR=${4}"
 Version=${4}
 Mkfile=Makefile.$Os.$Version
 Defines=""
+
+echo "Params OS=$1 Project=$2 Target=$3 Config=$4"
+
 if [ ${4} = "Debug" ]; then
   Config="CONFIG+=debug"
   Defines="DEFINES+=_DEBUG"

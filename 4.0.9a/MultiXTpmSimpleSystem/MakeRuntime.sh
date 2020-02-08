@@ -21,7 +21,8 @@
 #		msr@mitug.co.il
 #		--------------------------------------------------------------------------------
 
-mkdir runtime
+mkdir -p runtime
+mkdir -p bin
 cp bin/MultiXEchoClient* runtime
 cp bin/MultiXEchoServer* runtime
 cp TpmConfig.xml runtime

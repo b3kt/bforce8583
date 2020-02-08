@@ -29,22 +29,22 @@ fi
 export	MultiXTpm=`pwd`
 export	BinDir=../bin
 
-bash ./LinuxBuild.sh Linux  "MultiX" "MultiXD" "Debug"
-if [ "$?" -ne 0 ]; then
-	exit 2
-fi
-bash ./LinuxBuild.sh Linux  "gSoapForMultiX" "gSoapForMultiXD" "Debug"
-if [ "$?" -ne 0 ]; then
-	exit 2
-fi
-bash ./LinuxBuild.sh Linux  "MultiXgSoapSupport" "MultiXgSoapSupportD" "Debug"
-if [ "$?" -ne 0 ]; then
-	exit 2
-fi
-bash ./LinuxBuild.sh Linux  "MultiXTpm" "MultiXTpmD" "Debug"
-if [ "$?" -ne 0 ]; then
-	exit 2
-fi
+#bash ./LinuxBuild.sh Linux  "MultiX" "MultiXD" "Debug"
+#if [ "$?" -ne 0 ]; then
+#	exit 2
+#fi
+#bash ./LinuxBuild.sh Linux  "gSoapForMultiX" "gSoapForMultiXD" "Debug"
+#if [ "$?" -ne 0 ]; then
+#	exit 2
+#fi
+#bash ./LinuxBuild.sh Linux  "MultiXgSoapSupport" "MultiXgSoapSupportD" "Debug"
+#if [ "$?" -ne 0 ]; then
+#	exit 2
+#fi
+#bash ./LinuxBuild.sh Linux  "MultiXTpm" "MultiXTpmD" "Debug"
+#if [ "$?" -ne 0 ]; then
+#	exit 2
+#fi
 
 # un comment the following lines to enable "release" builds
 

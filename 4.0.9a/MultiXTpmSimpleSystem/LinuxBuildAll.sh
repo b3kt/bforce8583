@@ -7,6 +7,10 @@ export	BinDir=../bin
 
 bash -c 'cd $MultiXTpm; bash LinuxBuildAll.sh'
 
+bash "$MultiXTpm"/LinuxBuild.sh Linux  "MultiX" "MultiXD" "Debug"
+if [ "$?" -ne 0 ]; then
+        exit 2
+fi
 bash "$MultiXTpm"/LinuxBuild.sh Linux  "MultiXEchoClient" "MultiXEchoClientD" "Debug"
 if [ "$?" -ne 0 ]; then
 	exit 2

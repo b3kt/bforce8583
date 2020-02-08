@@ -6,7 +6,7 @@ DEFINES								=	posix WITH_SOAPDEFS_H
 LIBS						=	-lnsl -lrt -lpthread 
 VERSION					=	4.0.1
 
-INCLUDEPATH								=	./
+INCLUDEPATH								=	./ ${GSOAP_PATH}
 DEPENDPATH								=	./
 
 
